@@ -1,12 +1,12 @@
 [{
-    "ID": "1",
+    "ID": 1,
     "Status": "New"
 },
 {
-    "ID": "2",
+    "ID": 2,
     "Status": "Active"
 },
 {
-    "ID": "3",
+    "ID": 3,
     "Status": "Deleted"
 }]
