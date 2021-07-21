@@ -1,19 +1,23 @@
 [{
+    "ResponsibleID": 1,
     "LastName": "Ivanov",
     "FirstName": "Ivan",
     "Patronymic": "Ivanovich"
 },
 {
+    "ResponsibleID": 2,
     "LastName": "Petrov",
     "FirstName": "Petr",
     "Patronymic": "Petrovich"
 },
 {
+    "ResponsibleID": 3,
     "LastName": "Pechkin",
     "FirstName": "Fedor",
     "Patronymic": "Vitalyevich"
 },
 {
+    "ResponsibleID": 4,
     "LastName": "Pupkin",
     "FirstName": "Vasil",
     "Patronymic": "Aleksandrovich"

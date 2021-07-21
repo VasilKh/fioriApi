@@ -1,42 +1,56 @@
-[{
+{ "Categories":[{
     "CategoryID": 1,
     "CategoryName": "Cars",
     "Description": "Cars for sale",
-    "Picture": "0101010101"
+    "Picture": "0101010101",
+    "StatusID": 1,
+    "ResponsibleID": 3
 },
 {
     "CategoryID": 2,
     "CategoryName": "Planes",
     "Description": "Planes for sale",
-    "Picture": "101010101011001"
+    "Picture": "101010101011001",
+    "StatusID": 3,
+    "ResponsibleID": 2
 },
 {
     "CategoryID": 3,
     "CategoryName": "Helicopters",
     "Description": "Helicopters for sale",
-    "Picture": "1010101001"
+    "Picture": "1010101001",
+    "StatusID": 3,
+    "ResponsibleID": 4
 },
 {
     "CategoryID": 4,
     "CategoryName": "Bikes",
     "Description": "Bikes for sale",
-    "Picture": "101010101010"
+    "Picture": "101010101010",
+    "StatusID": 1,
+    "ResponsibleID": 2
 },
 {
     "CategoryID": 5,
     "CategoryName": "Motorcycles",
     "Description": "Motorcycles for sale",
-    "Picture": "01010101"
+    "Picture": "01010101",
+    "StatusID": 2,
+    "ResponsibleID": 2
 },
 {
     "CategoryID": 6,
     "CategoryName": "Electric scooters",
     "Description": "Electric scooters for sale",
-    "Picture": "1010101010"
+    "Picture": "1010101010",
+    "StatusID": 1,
+    "ResponsibleID": 4
 },
 {
     "CategoryID": 7,
     "CategoryName": "Trucks",
     "Description": "Trucks for sale",
-    "Picture": "1010101010"
-}]
+    "Picture": "1010101010",
+    "StatusID": 3,
+    "ResponsibleID": 1
+}] }

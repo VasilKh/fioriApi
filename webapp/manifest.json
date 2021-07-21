@@ -149,6 +149,14 @@
                             }
                         }
                     }
+                },
+                "pages": {
+                    "ObjectPage|Categories": {
+                        "component": {
+                            "name": "sap.suite.ui.generic.template.ObjectPage"
+                        },
+                        "entitySet": "Categories"
+                    }
                 }
             }
         }
