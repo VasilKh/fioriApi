@@ -149,16 +149,6 @@
                             }
                         }
                     }
-                },
-                "pages": {
-                    "ObjectPage|Categories": {
-                        "entitySet": "Categories",
-                        "defaultLayoutTypeIfExternalNavigation": "MidColumnFullScreen",
-                        "component": {
-                            "name": "sap.suite.ui.generic.template.ObjectPage"
-                        },
-                        "pages": {}
-                    }
                 }
             }
         }
