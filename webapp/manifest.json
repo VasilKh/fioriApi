@@ -157,16 +157,7 @@
                         "component": {
                             "name": "sap.suite.ui.generic.template.ObjectPage"
                         },
-                        "pages": {
-                            "ObjectPage|Products": {
-                                "navigationProperty": "Products",
-                                "entitySet": "Products",
-                                "defaultLayoutTypeIfExternalNavigation": "MidColumnFullScreen",
-                                "component": {
-                                    "name": "sap.suite.ui.generic.template.ObjectPage"
-                                }
-                            }
-                        }
+                        "pages": {}
                     }
                 }
             }
