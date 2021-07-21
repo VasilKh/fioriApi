@@ -1,0 +1,42 @@
+[{
+    "CategoryID": "1",
+    "CategoryName": "Cars",
+    "Description": "Cars for sale",
+    "Picture": "dlflfknb"
+},
+{
+    "CategoryID": "2",
+    "CategoryName": "Planes",
+    "Description": "Planes for sale",
+    "Picture": "dlflfknb"
+},
+{
+    "CategoryID": "3",
+    "CategoryName": "Helicopters",
+    "Description": "Helicopters for sale",
+    "Picture": "dlflfknb"
+},
+{
+    "CategoryID": "4",
+    "CategoryName": "Bikes",
+    "Description": "Bikes for sale",
+    "Picture": "dlflfknb"
+},
+{
+    "CategoryID": "5",
+    "CategoryName": "Motorcycles",
+    "Description": "Cars for sale",
+    "Picture": "dlflfknb"
+},
+{
+    "CategoryID": "6",
+    "CategoryName": "Electric scooters",
+    "Description": "Electric scooters for sale",
+    "Picture": "dlflfknb"
+},
+{
+    "CategoryID": "7",
+    "CategoryName": "Trucks",
+    "Description": "Trucks for sale",
+    "Picture": "dlflfknb"
+}]

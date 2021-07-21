@@ -1,0 +1,20 @@
+[{
+    "LastName": "Ivanov",
+    "FirstName": "Ivan",
+    "Patronymic": "Ivanovich"
+},
+{
+    "LastName": "Petrov",
+    "FirstName": "Petr",
+    "Patronymic": "Petrovich"
+},
+{
+    "LastName": "Pechkin",
+    "FirstName": "Fedor",
+    "Patronymic": "Vitalevich"
+},
+{
+    "LastName": "Pupkin",
+    "FirstName": "Vasil",
+    "Patronymic": "Aleksandrovich"
+}]
