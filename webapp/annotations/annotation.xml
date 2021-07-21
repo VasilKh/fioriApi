@@ -17,11 +17,14 @@
             <Annotations Target="NorthwindModel.Category">
                 <Annotation Term="UI.SelectionFields" >
                     <Collection>
-                        <PropertyPath>CategoryName</PropertyPath>
+                        <PropertyPath>CategoryID</PropertyPath>
                     </Collection>
                 </Annotation>
                 <Annotation Term="UI.LineItem" >
                     <Collection>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="CategoryID"/>
+                        </Record>
                         <Record Type="UI.DataField">
                             <PropertyValue Property="Value" Path="CategoryName"/>
                         </Record>
@@ -30,9 +33,6 @@
                         </Record>
                         <Record Type="UI.DataField">
                             <PropertyValue Property="Value" Path="Picture"/>
-                        </Record>
-                        <Record Type="UI.DataField">
-                            <PropertyValue Property="Value" Path="CategoryID"/>
                         </Record>
                     </Collection>
                 </Annotation>
