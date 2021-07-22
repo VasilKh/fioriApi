@@ -1,4 +1,4 @@
-{ "Categories":[{
+[{
     "CategoryID": 1,
     "CategoryName": "Cars",
     "Description": "Cars for sale",
@@ -53,4 +53,4 @@
     "Picture": "1010101010",
     "StatusID": 3,
     "ResponsibleID": 1
-}] }
+}]
