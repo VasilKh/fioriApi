@@ -147,6 +147,9 @@
                             "dateSettings": {
                                 "useDateRange": true
                             }
+                        },
+                        "dataLoadSettings": {
+                            "loadDataOnAppLaunch": "always"
                         }
                     }
                 },

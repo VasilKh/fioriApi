@@ -62,7 +62,7 @@
             </Association>
             <Association Name="FK_Responsibles_Categories">
                 <End Role="Categories" Type="NorthwindModel.Category" Multiplicity="0..1" />
-                <End Role="Responsibles" Type="NorthwindModel.Responsible" Multiplicity="*" />
+                <End Role="Responsibles" Type="NorthwindModel.Responsible" Multiplicity="1" />
                 <ReferentialConstraint>
                     <Principal Role="Categories">
                         <PropertyRef Name="ResponsibleID" />
@@ -87,10 +87,10 @@
         </Schema>
         <Schema Namespace="ODataWeb.Northwind.Model" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
             <EntityContainer Name="NorthwindEntities" p7:LazyLoadingEnabled="true" m:IsDefaultEntityContainer="true" xmlns:p7="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
-                <EntitySet Name="Categories" EntityType="NorthwindModel.Category" />
-                <EntitySet Name="Statuses" EntityType="NorthwindModel.Status" />
-                <EntitySet Name="Responsibles" EntityType="NorthwindModel.Responsible" />
-                <EntitySet Name="Products" EntityType="NorthwindModel.Product" />
+                <EntitySet Name="Categories" EntityType="NorthwindModel.Category"/>
+                <EntitySet Name="Statuses" EntityType="NorthwindModel.Status"/>
+                <EntitySet Name="Responsibles" EntityType="NorthwindModel.Responsible"/>
+                <EntitySet Name="Products" EntityType="NorthwindModel.Product"/>
                 <AssociationSet Name="FK_Products_Categories" Association="NorthwindModel.FK_Products_Categories">
                     <End Role="Categories" EntitySet="Categories" />
                     <End Role="Products" EntitySet="Products" />
