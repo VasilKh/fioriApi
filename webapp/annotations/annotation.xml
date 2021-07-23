@@ -30,6 +30,9 @@
             <Annotations Target="NorthwindModel.Category/StatusID">
                 <Annotation Term="Common.Text" Path="Statuses/StatusName"/>
             </Annotations>
+            <Annotations Target="NorthwindModel.Category/ResponsibleID">
+                <Annotation Term="Common.Text" Path="Responsibles/FirstName"/>
+            </Annotations>
             <Annotations Target="NorthwindModel.Category">
                 <Annotation Term="UI.SelectionFields" >
                     <Collection>
@@ -43,7 +46,6 @@
                             <PropertyValue Property="Value" Path="CategoryID"/>
                             <PropertyValue Property="Label" String="{@i18n>category}"/>
                         </Record>
-
                         <Record Type="UI.DataField">
                             <PropertyValue Property="Value" Path="Description"/>
                         </Record>
@@ -53,11 +55,11 @@
                         </Record>
                         <Record Type="UI.DataField">
                             <PropertyValue Property="Value" Path="ResponsibleID"/>
-                            <PropertyValue Property="Label" String="{@i18n>responsibleId}"/>
+                            <PropertyValue Property="Label" String="{@i18n>firstName}"/>
                         </Record>
                         <Record Type="UI.DataField">
-                            <PropertyValue Property="Value" Path="Products/UnitsInStock"/>
-                            <PropertyValue Property="Label" String="{@i18n>unitsInStock}"/>
+                            <PropertyValue Property="Value" Path="Responsibles/LastName"/>
+                            <PropertyValue Property="Label" String="{@i18n>lastName}"/>
                         </Record>
                     </Collection>
                 </Annotation>

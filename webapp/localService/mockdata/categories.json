@@ -4,7 +4,8 @@
     "Description": "Cars for sale",
     "Picture": "0101010101",
     "StatusID": 1,
-    "ResponsibleID": 3
+    "ResponsibleID": 3,
+    "TotalUnits": 9431
 },
 {
     "CategoryID": 2,
@@ -12,7 +13,8 @@
     "Description": "Planes for sale",
     "Picture": "101010101011001",
     "StatusID": 3,
-    "ResponsibleID": 2
+    "ResponsibleID": 2,
+    "TotalUnits": 8217
 },
 {
     "CategoryID": 3,
@@ -20,7 +22,8 @@
     "Description": "Helicopters for sale",
     "Picture": "1010101001",
     "StatusID": 3,
-    "ResponsibleID": 4
+    "ResponsibleID": 4,
+    "TotalUnits": 9476
 },
 {
     "CategoryID": 4,
@@ -28,7 +31,8 @@
     "Description": "Bikes for sale",
     "Picture": "101010101010",
     "StatusID": 1,
-    "ResponsibleID": 2
+    "ResponsibleID": 2,
+    "TotalUnits": 7324
 },
 {
     "CategoryID": 5,
@@ -36,7 +40,8 @@
     "Description": "Motorcycles for sale",
     "Picture": "01010101",
     "StatusID": 2,
-    "ResponsibleID": 2
+    "ResponsibleID": 2,
+    "TotalUnits": 4697
 },
 {
     "CategoryID": 6,
@@ -44,7 +49,8 @@
     "Description": "Electric scooters for sale",
     "Picture": "1010101010",
     "StatusID": 1,
-    "ResponsibleID": 4
+    "ResponsibleID": 4,
+    "TotalUnits": 3287
 },
 {
     "CategoryID": 7,
@@ -52,5 +58,6 @@
     "Description": "Trucks for sale",
     "Picture": "1010101010",
     "StatusID": 3,
-    "ResponsibleID": 1
+    "ResponsibleID": 1,
+    "TotalUnits": 8736
 }]
