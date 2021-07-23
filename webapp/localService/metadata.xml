@@ -13,6 +13,7 @@
                 <Property Name="StatusID" Type="Edm.Int32" Nullable="false" p8:StoreGeneratedPattern="Identity" xmlns:p8="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
                 <Property Name="ResponsibleID" Type="Edm.Int32" Nullable="false" p8:StoreGeneratedPattern="Identity" xmlns:p8="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
                 <Property Name="TotalUnits" Type="Edm.Int32" Nullable="true" />
+                <Property Name="ProductAvailability" Type="Edm.Int16" Nullable="true" />
                 <NavigationProperty Name="Products" Relationship="NorthwindModel.FK_Products_Categories" FromRole="Categories" ToRole="Products" />
                 <NavigationProperty Name="Statuses" Relationship="NorthwindModel.FK_Statuses_Categories" FromRole="Categories" ToRole="Statuses" />
                 <NavigationProperty Name="Responsibles" Relationship="NorthwindModel.FK_Responsibles_Categories" FromRole="Categories" ToRole="Responsibles" />

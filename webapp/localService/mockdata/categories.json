@@ -5,7 +5,8 @@
     "Picture": "0101010101",
     "StatusID": 1,
     "ResponsibleID": 3,
-    "TotalUnits": 9431
+    "TotalUnits": 9431,
+    "ProductAvailability" : 4322
 },
 {
     "CategoryID": 2,
@@ -14,7 +15,8 @@
     "Picture": "101010101011001",
     "StatusID": 3,
     "ResponsibleID": 2,
-    "TotalUnits": 8217
+    "TotalUnits": 8217,
+    "ProductAvailability" : 1314
 },
 {
     "CategoryID": 3,
@@ -23,7 +25,8 @@
     "Picture": "1010101001",
     "StatusID": 3,
     "ResponsibleID": 4,
-    "TotalUnits": 9476
+    "TotalUnits": 9476,
+    "ProductAvailability" : 3421
 },
 {
     "CategoryID": 4,
@@ -32,7 +35,8 @@
     "Picture": "101010101010",
     "StatusID": 1,
     "ResponsibleID": 2,
-    "TotalUnits": 7324
+    "TotalUnits": 7324,
+    "ProductAvailability" : 4535
 },
 {
     "CategoryID": 5,
@@ -41,7 +45,8 @@
     "Picture": "01010101",
     "StatusID": 2,
     "ResponsibleID": 2,
-    "TotalUnits": 4697
+    "TotalUnits": 4697,
+    "ProductAvailability" : 2344
 },
 {
     "CategoryID": 6,
@@ -50,7 +55,8 @@
     "Picture": "1010101010",
     "StatusID": 1,
     "ResponsibleID": 4,
-    "TotalUnits": 3287
+    "TotalUnits": 3287,
+    "ProductAvailability" : 1231
 },
 {
     "CategoryID": 7,
@@ -59,5 +65,6 @@
     "Picture": "1010101010",
     "StatusID": 3,
     "ResponsibleID": 1,
-    "TotalUnits": 8736
+    "TotalUnits": 8736,
+    "ProductAvailability" : 4633
 }]
