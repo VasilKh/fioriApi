@@ -40,6 +40,7 @@
                 <Annotation Term="UI.DataPoint" Qualifier="Quantity">
                     <Record Type="UI.DataPointType">
                         <PropertyValue Property="Value" Path="ProductAvailability"/>
+                        <PropertyValue Property="Title" String="{@i18n>productAvailability}"/>
                         <PropertyValue Property="CriticalityCalculation">
                             <Record Type="UI.CriticalityCalculationType">
                                 <PropertyValue Property="ImprovementDirection" EnumMember="UI.ImprovementDirectionType/Maximize"/>
@@ -55,6 +56,7 @@
                         <PropertyValue Property="Measures">
                             <Collection>
                                 <PropertyPath>TotalUnits</PropertyPath>
+
                             </Collection>
                         </PropertyValue>
                         <PropertyValue Property="MeasureAttributes">
@@ -172,6 +174,32 @@
                 </Annotation>  
                 <Annotation Term="Common.ValueListWithFixedValues"/>      
             </Annotations>  
+
+            <Annotations Target="NorthwindModel.Category">
+                <Annotation Term="UI.DataPoint" Qualifier="Status">
+					<Record Type="UI.DataPointType">
+						<PropertyValue Property="Value" Path="Statuses/StatusName"/>
+						<PropertyValue Property="Title" String="{@i18n>statusName1}"/>
+					</Record>
+				</Annotation>
+                <Annotation Term="UI.HeaderInfo" >
+                    <Record Type="UI.HeaderInfoType">
+                        <PropertyValue Property="TypeName" String="{@i18n>category}"/>
+                        <PropertyValue Property="TypeNamePlural" String="{@i18n>category}"/>
+                        <PropertyValue Property="Title">
+                            <Record Type="UI.DataField">
+                                <PropertyValue Property="Value" Path="CategoryName"/>
+
+                            </Record>
+                        </PropertyValue>
+                        <PropertyValue Property="Description">
+                            <Record Type="UI.DataField">
+                                <PropertyValue Property="Value" Path="Description"/>
+                            </Record>
+                        </PropertyValue>
+                    </Record>
+                </Annotation>
+            </Annotations>
         </Schema>
     </edmx:DataServices>
 </edmx:Edmx>
