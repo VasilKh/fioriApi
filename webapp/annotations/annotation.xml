@@ -108,7 +108,7 @@
                             <Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/>
                             <Annotation Term="HTML5.CssDefaults">
                                 <Record>
-                                    <PropertyValue Property="width" String="10rem"/>
+                                    <PropertyValue Property="width" String="6rem"/>
                                 </Record>   
                             </Annotation>
                         </Record>
@@ -118,7 +118,7 @@
                             <Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/>
                             <Annotation Term="HTML5.CssDefaults">
                                 <Record>
-                                    <PropertyValue Property="width" String="10rem"/>
+                                    <PropertyValue Property="width" String="7rem"/>
                                 </Record>   
                             </Annotation>
                         </Record>
@@ -128,13 +128,19 @@
                             <Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/>
                             <Annotation Term="HTML5.CssDefaults">
                                 <Record>
-                                    <PropertyValue Property="width" String="10rem"/>
+                                    <PropertyValue Property="width" String="7rem"/>
                                 </Record>   
                             </Annotation>
                         </Record>
                         <Record Type="UI.DataFieldForAnnotation">
                             <PropertyValue Property="Target" AnnotationPath="@UI.Chart#Quantity"/>
                             <PropertyValue Property="Label" String="{@i18n>productAvailability}"/>
+                            <Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/>
+                            <Annotation Term="HTML5.CssDefaults">
+                                <Record>
+                                    <PropertyValue Property="width" String="11rem"/>
+                                </Record>   
+                            </Annotation>
                         </Record>
                     </Collection>
                 </Annotation>
