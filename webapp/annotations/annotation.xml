@@ -196,7 +196,6 @@
                         <PropertyValue Property="Title">
                             <Record Type="UI.DataField">
                                 <PropertyValue Property="Value" Path="CategoryName"/>
-
                             </Record>
                         </PropertyValue>
                         <PropertyValue Property="Description">
@@ -208,11 +207,58 @@
                 </Annotation>
                 <Annotation Term="UI.Facets" >
                     <Collection>
+                        <Record Type="UI.CollectionFacet">
+                            <PropertyValue Property="Facets">
+                                <Collection>
+                                    <Record Type="UI.ReferenceFacet">
+                                        <PropertyValue Property="Target" AnnotationPath="@UI.Identification"/>
+                                        <PropertyValue Property="Label" String="{@i18n>basicData}"/>
+                                    </Record>
+                                    <Record Type="UI.ReferenceFacet">
+                                        <PropertyValue Property="Target" AnnotationPath="@UI.FieldGroup"/>
+                                        <PropertyValue Property="Label" String="{@i18n>responsibleInfo}"/>
+                                    </Record>
+                                </Collection>
+                            </PropertyValue>
+                            <PropertyValue Property="Label" String="{@i18n>generalInformation}"/>
+                        </Record>
                         <Record Type="UI.ReferenceFacet">
                             <PropertyValue Property="Target" AnnotationPath="Products/@UI.LineItem"/>
                             <PropertyValue Property="Label" String="{@i18n>products}"/>
                         </Record>
                     </Collection>
+                </Annotation>
+                <Annotation Term="UI.Identification" >
+                    <Collection>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="CategoryID"/>
+                            <PropertyValue Property="Label" String="{@i18n>categoryId}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="TotalUnits"/>
+                            <PropertyValue Property="Label" String="{@i18n>totalUnits}"/>
+                        </Record>
+                    </Collection>
+                </Annotation>
+                <Annotation Term="UI.FieldGroup" >
+                    <Record Type="UI.FieldGroupType">
+                        <PropertyValue Property="Data">
+                            <Collection>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Value" Path="Responsibles/FirstName"/>
+                                    <PropertyValue Property="Label" String="{@i18n>firstName}"/>
+                                </Record>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Value" Path="Responsibles/LastName"/>
+                                    <PropertyValue Property="Label" String="{@i18n>lastName}"/>
+                                </Record>
+                                <Record Type="UI.DataField">
+                                <PropertyValue Property="Value" Path="Responsibles/Patronymic"/>
+                                <PropertyValue Property="Label" String="{@i18n>patronymic}"/>
+                                </Record>
+                            </Collection>
+                        </PropertyValue>
+                    </Record>
                 </Annotation>
             </Annotations>
             <Annotations Target="NorthwindModel.Product">
