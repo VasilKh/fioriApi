@@ -172,6 +172,13 @@
                                             "text": "Delete1",
                                             "press": "onDeleteAction",
                                             "requiresSelection": true
+                                        },
+                                        "onActivationRandom": {
+                                            "id": "onActivationRandomButton",
+                                            "text": "Activation Random",
+                                            "press": "onActivationRandom",
+                                            "requiresSelection": true,
+                                            "determining": true
                                         }
                                     }
                                 }

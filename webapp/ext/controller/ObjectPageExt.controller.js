@@ -17,5 +17,28 @@ sap.ui.controller("fioriapi.ext.controller.ObjectPageExt", {
 
     onDeleteAction : function() { 
         sap.m.MessageToast.show("Hello World");
-    }
+    },
+
+    onActivationRandom: function (oEvent) {
+		this.getOwnerComponent().getModel().callFunction("/onRandom",{
+			method: "GET",
+			success: function() {
+				this.getView();
+				var iStatusActive = 2;
+
+				var iPreviousStatus = this.getOwnerComponent().getModel().getProperty("/Categories(" + id + ")/StatusID");
+
+				if(iPreviousStatus ==2){
+					sap.m.MessageToast.show("Status is already in Active state");	
+				}else {
+					this.getOwnerComponent().getModel().setProperty("/Categories(" + id + ")/StatusID", iStatusActive);
+					this.getOwnerComponent().getModel().submitChanges();
+					this.getOwnerComponent().getModel().refresh();
+				}
+			}.bind(this),
+			error: function() {
+				sap.m.MessageToast.show("Error status!!!");
+			}
+		});                   
+	}
 });
