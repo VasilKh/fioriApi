@@ -128,7 +128,16 @@
                             "type": "XML"
                         }
                     },
-                    "sap.suite.ui.generic.template.ObjectPage.view.Details": {}
+                    "sap.suite.ui.generic.template.ObjectPage.view.Details": {
+                        "AfterFacet|Categories|com.sap.vocabularies.UI.v1.FieldGroup::ObjectPage": {
+                            "type": "XML",
+                            "className": "sap.ui.core.mvc.View",
+                            "viewName": "fioriapi.ext.view.CustomView",
+                            "sap.ui.generic.app": {
+                                "title": "Image"
+                            }
+                        }
+                    }
                 },
                 "sap.ui.controllerExtensions": {
                     "sap.suite.ui.generic.template.ObjectPage.view.Details": {

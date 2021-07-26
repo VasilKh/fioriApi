@@ -207,20 +207,13 @@
                 </Annotation>
                 <Annotation Term="UI.Facets" >
                     <Collection>
-                        <Record Type="UI.CollectionFacet">
-                            <PropertyValue Property="Facets">
-                                <Collection>
-                                    <Record Type="UI.ReferenceFacet">
-                                        <PropertyValue Property="Target" AnnotationPath="@UI.Identification"/>
-                                        <PropertyValue Property="Label" String="{@i18n>basicData}"/>
-                                    </Record>
-                                    <Record Type="UI.ReferenceFacet">
-                                        <PropertyValue Property="Target" AnnotationPath="@UI.FieldGroup"/>
-                                        <PropertyValue Property="Label" String="{@i18n>responsibleInfo}"/>
-                                    </Record>
-                                </Collection>
-                            </PropertyValue>
-                            <PropertyValue Property="Label" String="{@i18n>generalInformation}"/>
+                        <Record Type="UI.ReferenceFacet">
+                            <PropertyValue Property="Target" AnnotationPath="@UI.Identification"/>
+                            <PropertyValue Property="Label" String="{@i18n>basicData}"/>
+                        </Record>
+                        <Record Type="UI.ReferenceFacet">
+                            <PropertyValue Property="Target" AnnotationPath="@UI.FieldGroup#ObjectPage"/>
+                            <PropertyValue Property="Label" String="{@i18n>responsibleInfo}"/>
                         </Record>
                         <Record Type="UI.ReferenceFacet">
                             <PropertyValue Property="Target" AnnotationPath="Products/@UI.LineItem"/>
@@ -240,7 +233,7 @@
                         </Record>
                     </Collection>
                 </Annotation>
-                <Annotation Term="UI.FieldGroup" >
+                <Annotation Term="UI.FieldGroup" Qualifier="ObjectPage">
                     <Record Type="UI.FieldGroupType">
                         <PropertyValue Property="Data">
                             <Collection>
@@ -260,6 +253,7 @@
                         </PropertyValue>
                     </Record>
                 </Annotation>
+                
             </Annotations>
             <Annotations Target="NorthwindModel.Product">
 				<Annotation Term="UI.LineItem">
