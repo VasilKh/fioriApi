@@ -157,6 +157,23 @@
                                             }
                                         }
                                     }
+                                },
+                                "Header": {
+                                    "Actions": {
+                                        "onActivateAction": {
+                                            "id": "onActivateActionButton",
+                                            "text": "Activate",
+                                            "press": "onActivateAction",
+                                            "requiresSelection": true,
+                                            "determining": true
+                                        },
+                                        "onDeleteAction": {
+                                            "id": "onDeleteActionButton",
+                                            "text": "Delete1",
+                                            "press": "onDeleteAction",
+                                            "requiresSelection": true
+                                        }
+                                    }
                                 }
                             }
                         }
